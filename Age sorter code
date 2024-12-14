@@ -1,0 +1,5 @@
+case when _age between 0 and 18 then 'kid'
+   when _age between 18 and 40 then 'middle aged'
+   when _age between 40 and 80 then 'old fart'
+   else 'super old fart'
+end as age group;
